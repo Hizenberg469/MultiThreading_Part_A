@@ -10,7 +10,7 @@ pkt_recv_fn(
 	uint32_t port_no
 ) {
 
-	printf("%s() : pkt recvd = %s, pkt size = %u\n",
+	printf("\n%s() : pkt recvd = %s, pkt size = %u\n",
 		__FUNCTION__, pkt, pkt_size);
 }
 
@@ -33,6 +33,30 @@ main(int argc, char** argv) {
 		3001,
 		pkt_recv_fn
 	);
+
+	int th_no,cnt = 0;
+	while (1) {
+		printf("Listener thread you can cancel [ 1 - 2 ]:");
+		scanf("%d", &th_no);
+		getchar();
+
+		switch (th_no) {
+			
+		case 1:
+			pthread_cancel((*listener1));
+			break;
+		case 2:
+			pthread_cancel((*listener2));
+			break;
+		case 1000:
+			exit(EXIT_SUCCESS);
+			break;
+		default:
+			break;
+
+		}
+		sleep(1);
+	}
 
 	pthread_exit(0);
 	return 0;

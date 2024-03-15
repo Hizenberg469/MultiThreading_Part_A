@@ -5,10 +5,6 @@
       "configure": "x64-debug"
     }
   },
-  "ExpandedNodes": [
-    ""
-  ],
-  "PreviewInSolutionExplorer": false,
   "OutputFoldersPerTargetSystem": {
     "Local Machine": [
       "out\\build\\x64-debug",
@@ -26,5 +22,9 @@
       "out\\Ubuntu\\build\\linux-debug",
       "out\\Ubuntu\\install\\linux-debug"
     ]
-  }
+  },
+  "ExpandedNodes": [
+    ""
+  ],
+  "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,4 @@
+# ninja log v5
+11	25	0	clean	8c45b54705a541e8
+8	820	7324594298477508	CMakeFiles/mutex_example.dir/mutex_example.cpp.obj	63bb6d4cb5c56ceb
+831	1503	7324594304831757	mutex_example.exe	b0afdf2871a5c3f3

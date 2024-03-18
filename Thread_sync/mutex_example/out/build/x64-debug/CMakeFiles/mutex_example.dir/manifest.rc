@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/MultiThreading_Part_A/Thread_sync/mutex_example/out/build/x64-debug/CMakeFiles/mutex_example.dir/embed.manifest"

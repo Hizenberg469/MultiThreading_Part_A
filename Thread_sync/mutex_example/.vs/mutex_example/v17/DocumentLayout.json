@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MultiThreading_Part_A\\Thread_sync\\mutex_example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MultiThreading_Part_A\\Thread_sync\\mutex_example\\mutex_example_with_mutex.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mutex_example_with_mutex.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MultiThreading_Part_A\\Thread_sync\\mutex_example\\mutex_example.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mutex_example.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|CMake Overview Pages||{B1CAA5B0-FEB1-4350-8AB9-F895876842F2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mutex_example_with_mutex.c",
+              "DocumentMoniker": "E:\\MultiThreading_Part_A\\Thread_sync\\mutex_example\\mutex_example_with_mutex.c",
+              "RelativeDocumentMoniker": "mutex_example_with_mutex.c",
+              "ToolTip": "E:\\MultiThreading_Part_A\\Thread_sync\\mutex_example\\mutex_example_with_mutex.c",
+              "RelativeToolTip": "mutex_example_with_mutex.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-18T10:54:28.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mutex_example.c",
+              "DocumentMoniker": "E:\\MultiThreading_Part_A\\Thread_sync\\mutex_example\\mutex_example.c",
+              "RelativeDocumentMoniker": "mutex_example.c",
+              "ToolTip": "E:\\MultiThreading_Part_A\\Thread_sync\\mutex_example\\mutex_example.c",
+              "RelativeToolTip": "mutex_example.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-18T10:03:22.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CMake Overview Pages",
+              "DocumentMoniker": "CMake Overview Pages",
+              "ToolTip": "CMake Overview Pages",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-18T10:03:13.52Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

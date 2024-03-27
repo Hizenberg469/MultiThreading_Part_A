@@ -6,8 +6,10 @@ struct Queue_t* reso;
 
 static const char* prod1 = "TP1";
 static const char* prod2 = "TP2";
+static const char* prod3 = "TP3";
 static const char* cons1 = "TC1";
 static const char* cons2 = "TC2";
+static const char* cons3 = "TC3";
 
 void*
 producer_fn_callback(void* arg) {
@@ -118,20 +120,34 @@ main(int argv, char* argc[]) {
 
 	pthread_t pt1;
 	pthread_t pt2;
+	pthread_t pt3;
 	pthread_t ct1;
 	pthread_t ct2;
+	pthread_t ct3;
 
 	reso = initQ();
 
 	create_thread(&pt1,producer_fn_callback,prod1);
 	create_thread(&pt2,producer_fn_callback,prod2);
+	create_thread(&pt3, producer_fn_callback, prod3);
 	create_thread(&ct1,consumer_fn_callback,cons1);
 	create_thread(&ct2,consumer_fn_callback,cons2);
+	create_thread(&ct3, consumer_fn_callback, cons3);
 
 	pthread_join(pt1, NULL);
 	pthread_join(pt2, NULL);
+	pthread_join(pt3, NULL);
 	pthread_join(ct1, NULL);
 	pthread_join(ct2, NULL);
+	pthread_join(ct3, NULL);
+
+
+	if (!is_queue_empty(reso)) {
+		printf("Queue is not Drained completely. Program didn't execute properly\n");
+		exit(EXIT_FAILURE);
+	}
+
+	printf("Size of Queue: %d\n", Q_COUNT(reso));
 
 	printf("Program finished\n");
 	pthread_exit(0);

@@ -21,5 +21,10 @@
       "out\\Ubuntu\\build\\linux-debug",
       "out\\Ubuntu\\install\\linux-debug"
     ]
-  }
+  },
+  "ExpandedNodes": [
+    ""
+  ],
+  "SelectedNode": "\\semaphores_hello_world.c",
+  "PreviewInSolutionExplorer": false
 }

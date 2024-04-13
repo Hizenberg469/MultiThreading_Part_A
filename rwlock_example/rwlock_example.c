@@ -9,7 +9,7 @@ static int n_w = 0;
 pthread_mutex_t state_check_mutex;
 
 static void
-cs_static_check() {
+cs_status_check() {
 
 	pthread_mutex_lock(&state_check_mutex);
 	assert(n_r >= 0 && n_w >= 0); /* cannot be negative */
